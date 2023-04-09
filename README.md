@@ -7,18 +7,18 @@ To Develop a convolutional deep neural network for digit classification and to v
 ## Problem Statement and Dataset
 
 ## Neural Network Model
+![190976591-e7be8aea-1886-4181-b490-2abde39f2ff6](https://user-images.githubusercontent.com/94677128/230781751-7a53c87a-1b80-431e-a403-5c79d39d0371.png)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
+STEP 1:
+Import tensorflow and preprocessing libraries
 
-### STEP 1:
+STEP 2:
+Build a CNN model
 
-### STEP 2:
-
-### STEP 3:
-
-Write your own steps
+STEP 3:
+Compile and fit the model and then predict
 
 ## PROGRAM
 ```
@@ -125,14 +125,21 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://user-images.githubusercontent.com/94677128/230781184-1502ffa5-495e-4319-b38c-68a4b63fe62b.png)
+![image](https://user-images.githubusercontent.com/94677128/230781215-060713c7-d079-4d92-8bbb-ba13726dcb3b.png)
 
 
 ### Classification Report
+![image](https://user-images.githubusercontent.com/94677128/230781260-6ce3e80a-8228-44a7-b1e8-a5cdc29f4eef.png)
 
 
 ### Confusion Matrix
+![image](https://user-images.githubusercontent.com/94677128/230781314-641c9061-466a-497a-abc7-74b8016a595e.png)
 
 
 ### New Sample Data Prediction
+![image](https://user-images.githubusercontent.com/94677128/230781361-34f7b188-1773-4123-9842-cb8527a43d1c.png)
+![image](https://user-images.githubusercontent.com/94677128/230781375-563e9c8f-f453-42d3-88d9-5181dcb37dc0.png)
 
 ## RESULT
+Thus, a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is written and executed successfully.
